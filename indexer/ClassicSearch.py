@@ -12,7 +12,7 @@ class ClassicSearch:
     def search(self, query, max_results_to_show):
         start_time = datetime.now()
 
-        query = query.split(" ")
+        query = query.lower().split(" ")
 
         documents = []
 
